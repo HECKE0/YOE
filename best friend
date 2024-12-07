@@ -320,7 +320,7 @@ TextLabel_3.TextStrokeTransparency = 0.640
 
 -- Scripts:
 
-local function RYEPD_fake_script() -- Skybox.Script 
+local function ZVGMDOD_fake_script() -- Skybox.Script 
 	local script = Instance.new('Script', Skybox)
 
 	function click()
@@ -339,8 +339,8 @@ local function RYEPD_fake_script() -- Skybox.Script
 	
 	script.Parent.MouseButton1Down:connect(click)
 end
-coroutine.wrap(RYEPD_fake_script)()
-local function PBQNE_fake_script() -- Decalspam.Script 
+coroutine.wrap(ZVGMDOD_fake_script)()
+local function LJFHXV_fake_script() -- Decalspam.Script 
 	local script = Instance.new('Script', Decalspam)
 
 	function click()
@@ -384,8 +384,8 @@ local function PBQNE_fake_script() -- Decalspam.Script
 	
 	script.Parent.MouseButton1Down:connect(click)
 end
-coroutine.wrap(PBQNE_fake_script)()
-local function NPMRMGK_fake_script() -- Particles.Script 
+coroutine.wrap(LJFHXV_fake_script)()
+local function JVTHXB_fake_script() -- Particles.Script 
 	local script = Instance.new('Script', Particles)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -397,8 +397,8 @@ local function NPMRMGK_fake_script() -- Particles.Script
 		end
 		end)
 end
-coroutine.wrap(NPMRMGK_fake_script)()
-local function HNPUHC_fake_script() -- Jumpscare.Script 
+coroutine.wrap(JVTHXB_fake_script)()
+local function ATPQ_fake_script() -- Jumpscare.Script 
 	local script = Instance.new('Script', Jumpscare)
 
 	--14623287742
@@ -428,16 +428,16 @@ local function HNPUHC_fake_script() -- Jumpscare.Script
 	end)
 	
 end
-coroutine.wrap(HNPUHC_fake_script)()
-local function XMVVS_fake_script() -- Jumpscare.LocalScript 
+coroutine.wrap(ATPQ_fake_script)()
+local function YECV_fake_script() -- Jumpscare.LocalScript 
 	local script = Instance.new('LocalScript', Jumpscare)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.RemoteEvent:FireServer()
 	end)
 end
-coroutine.wrap(XMVVS_fake_script)()
-local function KLCBUFY_fake_script() -- Faceall.Script 
+coroutine.wrap(YECV_fake_script)()
+local function PTLOG_fake_script() -- Faceall.Script 
 	local script = Instance.new('Script', Faceall)
 
 	function click()
@@ -462,16 +462,16 @@ local function KLCBUFY_fake_script() -- Faceall.Script
 	
 	script.Parent.MouseButton1Down:connect(click)
 end
-coroutine.wrap(KLCBUFY_fake_script)()
-local function BNSS_fake_script() -- Faceall.LocalScript 
+coroutine.wrap(PTLOG_fake_script)()
+local function FQDDF_fake_script() -- Faceall.LocalScript 
 	local script = Instance.new('LocalScript', Faceall)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.RemoteEvent:FireServer()
 	end)
 end
-coroutine.wrap(BNSS_fake_script)()
-local function WSCXGGK_fake_script() -- _666.Script 
+coroutine.wrap(FQDDF_fake_script)()
+local function VINIGDP_fake_script() -- _666.Script 
 	local script = Instance.new('Script', _666)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -528,8 +528,8 @@ local function WSCXGGK_fake_script() -- _666.Script
 	end)
 	
 end
-coroutine.wrap(WSCXGGK_fake_script)()
-local function UDKQGZ_fake_script() -- Music.Script 
+coroutine.wrap(VINIGDP_fake_script)()
+local function NTKKR_fake_script() -- Music.Script 
 	local script = Instance.new('Script', Music)
 
 	function onClick()
@@ -538,8 +538,8 @@ local function UDKQGZ_fake_script() -- Music.Script
 	
 	script.Parent.MouseButton1Down:connect(onClick)
 end
-coroutine.wrap(UDKQGZ_fake_script)()
-local function OMUBMCC_fake_script() -- Hint.Script 
+coroutine.wrap(NTKKR_fake_script)()
+local function HNRQ_fake_script() -- Hint.Script 
 	local script = Instance.new('Script', Hint)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -547,8 +547,8 @@ local function OMUBMCC_fake_script() -- Hint.Script
 		m.Text = "CYPRUS FUCKED YALL MOTHER FUCKERS!1!1!1!1HAHAHAHAHAHAHA BITCHES!!!!"
 	end)
 end
-coroutine.wrap(OMUBMCC_fake_script)()
-local function YTOR_fake_script() -- Message.Script 
+coroutine.wrap(HNRQ_fake_script)()
+local function WZVAMS_fake_script() -- Message.Script 
 	local script = Instance.new('Script', Message)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -558,8 +558,8 @@ local function YTOR_fake_script() -- Message.Script
 		o:Destroy()
 	end)
 end
-coroutine.wrap(YTOR_fake_script)()
-local function TWCXTGM_fake_script() -- DISCO.Script 
+coroutine.wrap(WZVAMS_fake_script)()
+local function SWQZNTS_fake_script() -- DISCO.Script 
 	local script = Instance.new('Script', DISCO)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -581,8 +581,8 @@ local function TWCXTGM_fake_script() -- DISCO.Script
 		end
 	end)
 end
-coroutine.wrap(TWCXTGM_fake_script)()
-local function SSVROU_fake_script() -- Toadroaster.Script 
+coroutine.wrap(SWQZNTS_fake_script)()
+local function WFYNCR_fake_script() -- Toadroaster.Script 
 	local script = Instance.new('Script', Toadroaster)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -680,8 +680,8 @@ local function SSVROU_fake_script() -- Toadroaster.Script
 		coroutine.resume(rain)
 	end)
 end
-coroutine.wrap(SSVROU_fake_script)()
-local function SCXPTLC_fake_script() -- Firerain.Script 
+coroutine.wrap(WFYNCR_fake_script)()
+local function UEQBOTH_fake_script() -- Firerain.Script 
 	local script = Instance.new('Script', Firerain)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -698,8 +698,8 @@ local function SCXPTLC_fake_script() -- Firerain.Script
 	end)
 	
 end
-coroutine.wrap(SCXPTLC_fake_script)()
-local function PQYEVM_fake_script() -- Killall.Script 
+coroutine.wrap(UEQBOTH_fake_script)()
+local function TJMWGA_fake_script() -- Killall.Script 
 	local script = Instance.new('Script', Killall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -710,8 +710,8 @@ local function PQYEVM_fake_script() -- Killall.Script
 		end
 	end)
 end
-coroutine.wrap(PQYEVM_fake_script)()
-local function CEQRIQ_fake_script() -- Killall.LocalScript 
+coroutine.wrap(TJMWGA_fake_script)()
+local function KSEN_fake_script() -- Killall.LocalScript 
 	local script = Instance.new('LocalScript', Killall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -720,8 +720,8 @@ local function CEQRIQ_fake_script() -- Killall.LocalScript
 	
 	
 end
-coroutine.wrap(CEQRIQ_fake_script)()
-local function JWBDBU_fake_script() -- Ballrain.Script 
+coroutine.wrap(KSEN_fake_script)()
+local function NOLGS_fake_script() -- Ballrain.Script 
 	local script = Instance.new('Script', Ballrain)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -793,8 +793,8 @@ local function JWBDBU_fake_script() -- Ballrain.Script
 		end
 	end)
 end
-coroutine.wrap(JWBDBU_fake_script)()
-local function XXDQVCT_fake_script() -- Spinall.Script 
+coroutine.wrap(NOLGS_fake_script)()
+local function RXWBCR_fake_script() -- Spinall.Script 
 	local script = Instance.new('Script', Spinall)
 
 	function click()
@@ -825,8 +825,8 @@ local function XXDQVCT_fake_script() -- Spinall.Script
 	
 	script.Parent.MouseButton1Down:connect(click)
 end
-coroutine.wrap(XXDQVCT_fake_script)()
-local function HGCFOO_fake_script() -- gui.Script 
+coroutine.wrap(RXWBCR_fake_script)()
+local function HCKXGR_fake_script() -- gui.Script 
 	local script = Instance.new('Script', gui)
 
 	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
@@ -834,8 +834,8 @@ local function HGCFOO_fake_script() -- gui.Script
 	end)
 	
 end
-coroutine.wrap(HGCFOO_fake_script)()
-local function EUZJ_fake_script() -- gui.LocalScript 
+coroutine.wrap(HCKXGR_fake_script)()
+local function JMCRYR_fake_script() -- gui.LocalScript 
 	local script = Instance.new('LocalScript', gui)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -843,8 +843,8 @@ local function EUZJ_fake_script() -- gui.LocalScript
 	end)
 	
 end
-coroutine.wrap(EUZJ_fake_script)()
-local function AAKHIEB_fake_script() -- Frame.Drag Gui Script 
+coroutine.wrap(JMCRYR_fake_script)()
+local function FNBFAD_fake_script() -- Frame.Drag Gui Script 
 	local script = Instance.new('LocalScript', Frame)
 
 	function dragify(Main)
@@ -888,4 +888,4 @@ local function AAKHIEB_fake_script() -- Frame.Drag Gui Script
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(AAKHIEB_fake_script)()
+coroutine.wrap(FNBFAD_fake_script)()
